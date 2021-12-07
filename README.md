@@ -8,7 +8,7 @@
 <INSERT BLOG LINK>
 
 ### Description
-Programmatically create detections for deserialization exploitation with multiple
+Programmatically create hunting rules for deserialization exploitation with multiple
 
 - keywords (e.g. cmd.exe)
 - gadget chains (e.g. CommonsCollection)
