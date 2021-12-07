@@ -46,10 +46,16 @@ Examples:
 ```python3 checkyoself.py -y rules/javaobj -s rules/javaobj -d payloads/javaobj pcaps --misses -o java_misses```
 
 ### utils/generate_payloads.ps1
-YSoSerial.NET v1.34 payload generation. Run on Windows from the ./utils directory. https://github.com/pwntester/ysoserial.net
+YSoSerial.NET v1.34 payload generation. Run on Windows from the ./utils directory. 
+
+- Source: https://github.com/pwntester/ysoserial.net
+- License: ysoserial.net_LICENSE.txt
 
 ### utils/generate_payloads.sh
-YSoSerial payload generation. Run on Linux from the ./utils directory. https://github.com/frohoff/ysoserial
+YSoSerial payload generation. Run on Linux from the ./utils directory. 
+
+- Source: https://github.com/frohoff/ysoserial
+- License: ysoserial_LICENSE.txt
 
 ### utils/install_snort.sh
 Installing Snort on a Debian based system was a bit finnicky for me, so I wrote my install notes here. 

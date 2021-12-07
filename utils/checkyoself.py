@@ -16,7 +16,7 @@ LASTUPDATED     = "2021-12-02"
 DESCRIPTION     = "Check Yoself Before You Wreck Yo....Network."
 
 USAGE        = "python3 checkyoself.py [-y rules.yara] [-s rules.snort] [-o file_output_prefix] [--matches] [--misses] -d malware.exe malware.pcap"
-EXAMPLES	= "python3 checkyoself.py -y rules/javaobj -s rules/javaobj -d payloads/javaobj pcaps --misses -o java_misses"
+EXAMPLES	= "python3 checkyoself.py -y rules/javaobj -s rules/javaobj -d payloads/javaobj pcaps/ysoserial_java_rawbase64.pcap --misses -o java_misses"
 
 from argparse import ArgumentParser,RawTextHelpFormatter
 from io import TextIOWrapper
