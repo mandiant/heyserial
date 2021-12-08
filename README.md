@@ -5,7 +5,9 @@
 
 **Last Updated:**   2021-12-02
 
-<INSERT BLOG LINK>
+**Blog:**           https://www.mandiant.com/resources/hunting-deserialization-exploits
+
+For more details on this tool and the research process behind it, check out [our blog](https://www.mandiant.com/resources/hunting-deserialization-exploits)!
 
 ### Description
 Programmatically create hunting rules for deserialization exploitation with multiple
