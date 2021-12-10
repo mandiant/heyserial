@@ -172,13 +172,14 @@ def enc_combo(term, encchain, isprefix=False):
 	"""
 	new_encoded = []
 
-	# Encode the things
-	if isinstance(term, list):
+	# Encode the thing
+	if isinstance(term, (str, bytes)):
+		new_encoded = encchain[0](term, isprefix)
+
+	# Or Encode the things
+	else:
 		for t in term:
 			new_encoded.extend(encchain[0](t, isprefix))
-	# Or Encode the thing
-	else:
-		new_encoded = encchain[0](term, isprefix)
 
 	# Uncomment below for debugging
 	#print("Recursion {}:\n\tTerm:{}\n\tEncoded: {}".format(len(encchain),term,new_encoded))
@@ -214,7 +215,7 @@ def encode_all(keywords, encoders, ischain=False, isprefix=False):
 		all_keywords = "".join(keywords.split("::")[1:])
 		all_keywords = all_keywords.split("+")
 	elif not isprefix:
-		all_keywords = keywords
+		all_keywords = [keywords] if isinstance(keywords, (str,bytes)) else keywords
 
 	# Encode all keywords
 	try:
@@ -535,6 +536,7 @@ encoding_types = {
 		}
 object_types = {
 		"JavaObj": {"raw": b'\xac\xed'},
+		"JNDIObj": {"raw": b'\x24\x7b\x6a\x6e\x64\x69\x3a'},
 		"PHPObj": {"raw": b'\x4f\x3a'},
 		"PythonPickle": {"raw": b'\x80\x04\x95'},
 		# Including YSoSerial.NET formatters, but only NETViewState/LosFormatter has been tested.
