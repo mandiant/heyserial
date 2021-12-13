@@ -86,8 +86,10 @@ Tools
 - [Ysoserial (forked)](https://github.com/wh1t3p1g/ysoserial) - @wh1t3p1g
 - [Ysoserial.NET](https://github.com/pwntester/ysoserial.net) and [v2 branch](https://github.com/pwntester/ysoserial.net/tree/v2) - @pwntester 
 - [ViewGen](https://github.com/0xacb/viewgen) – 0xacb
+- [Rogue-JNDI](https://github.com/veracode-research/rogue-jndi) - @veracode-research
 
 Vulnerabilities
+- Log4J ([CVE-2021-44228](https://www.lunasec.io/docs/blog/log4j-zero-day/))
 - Exchange ([CVE-2021-42321](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42321))
 - Zoho ManageEngine ([CVE-2020-10189](https://nvd.nist.gov/vuln/detail/CVE-2020-10189))
 - Jira ([CVE-2020-36239](https://oxalis.io/atlassian-jira-data-centers-critical-vulnerability-what-you-need-to-know/))
@@ -97,6 +99,7 @@ Vulnerabilities
 - [What Do WebLogic, WebSphere, JBoss, Jenkins, OpenNMS, and Your Application Have in Common? This Vulnerability.](https://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/) – @breenmachine, FoxGloveSecurity (2015) 
 
 Talks and Write-Ups
+- [PSA: Log4Shell and the current state of JNDI injection](https://mbechler.github.io/2021/12/10/PSA_Log4Shell_JNDI_Injection/) - Moritz Bechler (2021)
 - [This is Not a Test: APT41 Initiates Global Intrusion Campaign Using Multiple Exploits](https://www.mandiant.com/resources/apt41-initiates-global-intrusion-campaign-using-multiple-exploits) – Chris Glyer, Dan Perez, Sarah Jones, Steve Miller (2020)
 - [Deep Dive into .NET ViewState deserialization and its exploitation](https://swapneildash.medium.com/deep-dive-into-net-viewstate-deserialization-and-its-exploitation-54bf5b788817) – Swapneil Dash (2019)
 - [Exploiting Deserialization in ASP.NET via ViewState](https://soroush.secproject.com/blog/2019/04/exploiting-deserialisation-in-asp-net-via-viewstate/) – Soroush Dalili (2019)
