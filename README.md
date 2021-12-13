@@ -83,6 +83,7 @@ Check out the Developers' guide (DEVELOPERS.md) for more details on extending He
 Tools
 - [Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet) – @GrrrDog
 - [Ysoserial](https://github.com/frohoff/ysoserial) - @frohoff 
+- [MarshalSec](https://github.com/frohoff/marshalsec) - @frohoff
 - [Ysoserial (forked)](https://github.com/wh1t3p1g/ysoserial) - @wh1t3p1g
 - [Ysoserial.NET](https://github.com/pwntester/ysoserial.net) and [v2 branch](https://github.com/pwntester/ysoserial.net/tree/v2) - @pwntester 
 - [ViewGen](https://github.com/0xacb/viewgen) – 0xacb
